@@ -644,7 +644,7 @@ def main():
     if sys.argv[1:]:
         port = int(sys.argv[1])
     else:
-        port = 1234
+        port = 9999
     server_address = ('', port)
 
     signal.signal(signal.SIGINT, signal_handler)
